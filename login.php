@@ -2,9 +2,9 @@
    $username = $_POST['username'];
    $password = $_POST['password']; 
    if ($username == "admin" && $password == "password"){
-     echo "Login SuccessFull"
+     echo "Login SuccessFull";
    } else {
-      echo "Login UnSuccessFull"
+      echo "Login UnSuccessFull";
    }
 ?>
 <html>
